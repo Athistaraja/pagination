@@ -69,7 +69,7 @@ let wrapper = document.querySelector(".wrapper");
 const req = new XMLHttpRequest();
 req.open(
   "GET",
-  "https://github.com/Athistaraja/pagination/blob/bd80ddce82fd3a8e6d103a3d605a4d32303718c1/pagination.json"
+  "https://gist.githubusercontent.com/rvsp/add40254aa126f045837fa5b51f47f1f/raw/4d724bfabf4cce7379a386e23bef6576ab99a2f9/pagination.json"
 );
 req.send();
 req.addEventListener("load", request);
